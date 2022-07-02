@@ -47,16 +47,16 @@
 
 ![](1_diagram8c45e37initialpage_component-210225-143812.svg)
 
-[ImangeComponent 추가 후]
+[ImageComponent 추가 후]
 
 ![](2_diagrame4693deaddedimage_component-210225-143830.svg)
 
-인터페이스 구현과 상속관계
+[BaseComponent 도입 후]
+
+![](3_diagram54c0aa0introducebasecomponent-210225-140324.webp)
 
 - B ⇢ A : B는 A를 구현 (implements)
 - B → A : B는 A를 상속 (extends)
-
-![](3_diagram54c0aa0introducebasecomponent-210225-140324.webp)
 
 ## HTML DOM elements
 
