@@ -41,8 +41,15 @@
 
 ## 단계별 클래스 다이어그램
 
-기본 컴포넌트
+컴포넌트를 추가하면서 그 변화와 리팩토링 요소를 확인해 보자.
+
+[최초 셋업]
+
 ![](1_diagram8c45e37initialpage_component-210225-143812.svg)
+
+[ImangeComponent 추가 후]
+
+![](2_diagrame4693deaddedimage_component-210225-143830.svg)
 
 인터페이스 구현과 상속관계
 
