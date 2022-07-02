@@ -21,7 +21,6 @@ class App{
         
         const todo = new TodoComponent('Todo title', 'Todo item');
         todo.attachTo(appRoot, 'beforeend');
-
     }
 }
 
