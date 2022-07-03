@@ -43,40 +43,41 @@
 ## 단계별 클래스 다이어그램
 
 컴포넌트를 추가하면서 그 변화와 리팩토링 요소를 확인해 보자.
-
-[최초 셋업]
+### 최초 셋업
 
 ![](1_diagram8c45e37initialpage_component-210225-143812.svg)
 
-[ImageComponent 추가 후]
+### ImageComponent 추가 후
 
 ![](2_diagrame4693deaddedimage_component-210225-143830.svg)
 
-[BaseComponent 도입 후]
+### BaseComponent 도입 후
 
 ![](3_diagram54c0aa0introducebasecomponent-210225-140324.webp)
 
 - B ⇢ A : B는 A를 구현 (implements)
 - B → A : B는 A를 상속 (extends)
 
-[모든 컴포넌트 작성 후]
+### 모든 컴포넌트 작성 후
 
 ![](4_diagram42edd92addmorechildren-210225-143855.svg)
 
-[PageCopmponent와 Composable 인터페이스 추가]
+###  PageCopmponent와 Composable 인터페이스 추가
 
 ![](5_diagram9869cd0introducepage_item_component-210225-143908.svg)
 
+### SectionContainer 추가
 `PageComponent` 에서 `PageItemComponent`를 생성하던 것을 DI를 통해 `SectionContainer`를 사용하도록 변경하여 디커플링 완성
-
-[SectionContainer 추가]
 
 ![](6_diagramd47572bdependencyinjection-210225-143743.svg)
 
+### InputDialog
 `InputDialog` 클래스는 이것또한 동적으로 HTML요소를 생성하는 컴포넌트 이므로, `BaseComponent`를 상속하구요, 다이얼로그안에 또다른 컴포넌트 (다이얼로그안에서 사용자에게 보여줄 컨텐츠)를 담을 수 있으므로, `Composable` 인퍼테이스를 구현했어요.
 
 ![](7_diagram15b2733adddialogs-210225-145043.svg)
 
+### 최종 클래스 다이어그램
+![](8_diagramad45105addinputcomponents-210225-145827.svg)
 
 ## HTML DOM elements
 
