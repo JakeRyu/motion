@@ -73,6 +73,10 @@
 
 ![](6_diagramd47572bdependencyinjection-210225-143743.svg)
 
+`InputDialog` 클래스는 이것또한 동적으로 HTML요소를 생성하는 컴포넌트 이므로, `BaseComponent`를 상속하구요, 다이얼로그안에 또다른 컴포넌트 (다이얼로그안에서 사용자에게 보여줄 컨텐츠)를 담을 수 있으므로, `Composable` 인퍼테이스를 구현했어요.
+
+![](7_diagram15b2733adddialogs-210225-145043.svg)
+
 
 ## HTML DOM elements
 
@@ -97,3 +101,16 @@ class App{
 
 new App(document.querySelector('.document')!)
 ```
+
+## InputDialog
+
+InputDialog가 자체적으로 무엇을 보여줄지 결정해서 보여주는 것이 아니라,
+
+InputDialog가 자체적으로 닫힘 버튼이 눌러지면 무엇을 할지 결정해서 처리 하는것이 아니라,
+
+
+무엇을 보여줄지는 addChild 함수를 통해서 언제든지 안에 보여주고 싶은 컨텐츠를 외부에서, 사용하는 사람이 결정 할 수 있고,
+
+닫힘, 제출 버튼이 눌러졌을때 어떤 일을 해야 할지도 외부에서 setOnCloseListener, setOnSubmitListener로 받아 오기 때문에,
+
+어디서 쓰이냐에 따라 유연하게, 재사용성이 높은 클래스라고 볼 수 있어요 :)
