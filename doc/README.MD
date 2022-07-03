@@ -67,6 +67,13 @@
 
 ![](5_diagram9869cd0introducepage_item_component-210225-143908.svg)
 
+`PageComponent` 에서 `PageItemComponent`를 생성하던 것을 DI를 통해 `SectionContainer`를 사용하도록 변경하여 디커플링 완성
+
+[SectionContainer 추가]
+
+![](6_diagramd47572bdependencyinjection-210225-143743.svg)
+
+
 ## HTML DOM elements
 
 최상위 노드는 EventTarget 이다. 브라우저에서 html을 이해하는 방식은 이렇게 모든 객체를 노드 타입으로 기억하는데 자바스크립트를 사용해서 그 일을 한다. 화살표는 상속 구조다. HTMLElement는 Element > Node > EventTarget 을 부모로 두고 있다.

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="370px" preserveAspectRatio="none" style="width:1433px;height:370px;background:#777777;" version="1.1" viewBox="0 0 1433 370" width="1433px" zoomAndPan="magnify"><defs><filter height="300%" id="f1d1gcilhosf5e" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[4e13963c9dc916a21a8436ef39422b32]
+class Component--><rect codeLine="4" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="67.9102" id="Component" style="stroke:#1B1B1B;stroke-width:1.5;" width="419" x="520" y="7"/><ellipse cx="693.5" cy="20" fill="#B4A7E5" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M695.8442,24.5 L691.1606,24.5 L691.1606,23.082 L692.4712,23.082 L692.4712,17.9204 L691.1606,17.9204 L691.1606,16.5024 L695.8442,16.5024 L695.8442,17.9204 L694.5337,17.9204 L694.5337,23.082 L695.8442,23.082 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="65" x="709.5" y="24.3748">Component</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="521" x2="938" y1="33" y2="33"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="521" x2="938" y1="41" y2="41"/><ellipse cx="531" cy="52" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="396" x="537" y="55.6348">attachTo(parent: HTMLElement, position?: InsertPosition | undefined): void</text><ellipse cx="531" cy="64.9551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="218" x="537" y="68.5898">removeFrom(parent: HTMLElement): void</text><!--MD5=[784d533083758286c885e86b9fe3090e]
+class BaseComponent--><rect codeLine="8" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="80.8652" id="BaseComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="355" x="409" y="135"/><ellipse cx="470.5" cy="148" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M470.6353,152.4058 Q469.7437,152.4058 468.989,152.1426 Q468.2344,151.8794 467.6919,151.3584 Q467.1494,150.8374 466.8513,150.0586 Q466.5532,149.2798 466.5532,148.2593 Q466.5532,147.3086 466.8379,146.5352 Q467.1226,145.7617 467.665,145.2085 Q468.186,144.6768 468.9568,144.3867 Q469.7275,144.0967 470.6406,144.0967 Q471.1455,144.0967 471.551,144.1531 Q471.9565,144.2095 472.3003,144.3008 Q472.6602,144.4028 472.9529,144.5291 Q473.2456,144.6553 473.4658,144.7627 L473.4658,146.7017 L473.2295,146.7017 Q473.0791,146.5728 472.8508,146.3955 Q472.6226,146.2183 472.3325,146.0464 Q472.0371,145.8745 471.6934,145.7563 Q471.3496,145.6382 470.9575,145.6382 Q470.5225,145.6382 470.1304,145.7751 Q469.7383,145.9121 469.4053,146.229 Q469.0884,146.5352 468.8923,147.04 Q468.6963,147.5449 468.6963,148.2646 Q468.6963,149.0166 468.9084,149.5215 Q469.1206,150.0264 469.4429,150.3164 Q469.7705,150.6118 470.1733,150.738 Q470.5762,150.8643 470.9683,150.8643 Q471.3442,150.8643 471.7122,150.7515 Q472.0801,150.6387 472.3916,150.4453 Q472.6548,150.2896 472.8804,150.1123 Q473.106,149.9351 473.251,149.8062 L473.4658,149.8062 L473.4658,151.7183 Q473.165,151.8525 472.8911,151.9707 Q472.6172,152.0889 472.3164,152.1748 Q471.9243,152.2876 471.5806,152.3467 Q471.2368,152.4058 470.6353,152.4058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="93" x="486.5" y="152.3748">BaseComponent</text><rect fill="#777777" height="14.9551" style="stroke:#AAAAAA;stroke-width:1.0;stroke-dasharray:2.0,2.0;" width="130" x="637" y="132"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="128" x="638" y="143.6348">T extends HTMLElement</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="410" x2="763" y1="161" y2="161"/><polygon fill="none" points="420,167,424,171,420,175,416,171" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="426" y="175.6348">element: T</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="410" x2="763" y1="181.9551" y2="181.9551"/><ellipse cx="420" cy="192.9551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="332" x="426" y="196.5898">attachTo(parent: HTMLElement, position?: InsertPosition): void</text><ellipse cx="420" cy="205.9102" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="218" x="426" y="209.5449">removeFrom(parent: HTMLElement): void</text><!--MD5=[5e732eea2472c00750f31206498f0d23]
+class VideoComponent--><rect codeLine="13" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="54.9551" id="VideoComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="254" x="322.5" y="289"/><ellipse cx="397.5" cy="302" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M397.6353,306.4058 Q396.7437,306.4058 395.989,306.1426 Q395.2344,305.8794 394.6919,305.3584 Q394.1494,304.8374 393.8513,304.0586 Q393.5532,303.2798 393.5532,302.2593 Q393.5532,301.3086 393.8379,300.5352 Q394.1226,299.7617 394.665,299.2085 Q395.186,298.6768 395.9568,298.3867 Q396.7275,298.0967 397.6406,298.0967 Q398.1455,298.0967 398.551,298.1531 Q398.9565,298.2095 399.3003,298.3008 Q399.6602,298.4028 399.9529,298.5291 Q400.2456,298.6553 400.4658,298.7627 L400.4658,300.7017 L400.2295,300.7017 Q400.0791,300.5728 399.8508,300.3955 Q399.6226,300.2183 399.3325,300.0464 Q399.0371,299.8745 398.6934,299.7563 Q398.3496,299.6382 397.9575,299.6382 Q397.5225,299.6382 397.1304,299.7751 Q396.7383,299.9121 396.4053,300.229 Q396.0884,300.5352 395.8923,301.04 Q395.6963,301.5449 395.6963,302.2646 Q395.6963,303.0166 395.9084,303.5215 Q396.1206,304.0264 396.4429,304.3164 Q396.7705,304.6118 397.1733,304.738 Q397.5762,304.8643 397.9683,304.8643 Q398.3442,304.8643 398.7122,304.7515 Q399.0801,304.6387 399.3916,304.4453 Q399.6548,304.2896 399.8804,304.1123 Q400.106,303.9351 400.251,303.8062 L400.4658,303.8062 L400.4658,305.7183 Q400.165,305.8525 399.8911,305.9707 Q399.6172,306.0889 399.3164,306.1748 Q398.9243,306.2876 398.5806,306.3467 Q398.2368,306.4058 397.6353,306.4058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="97" x="413.5" y="306.3748">VideoComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="323.5" x2="575.5" y1="315" y2="315"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="323.5" x2="575.5" y1="323" y2="323"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="330.5" y="331"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="231" x="339.5" y="337.6348">convertToEmbeddedURL(url: string): string</text><!--MD5=[e24719c9bee2a46e4c50d47e5395df69]
+class TodoComponent--><rect codeLine="16" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="42" id="TodoComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="119" x="612" y="295.5"/><ellipse cx="624" cy="308.5" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M624.1353,312.9058 Q623.2437,312.9058 622.489,312.6426 Q621.7344,312.3794 621.1919,311.8584 Q620.6494,311.3374 620.3513,310.5586 Q620.0532,309.7798 620.0532,308.7593 Q620.0532,307.8086 620.3379,307.0352 Q620.6226,306.2617 621.165,305.7085 Q621.686,305.1768 622.4568,304.8867 Q623.2275,304.5967 624.1406,304.5967 Q624.6455,304.5967 625.051,304.6531 Q625.4565,304.7095 625.8003,304.8008 Q626.1602,304.9028 626.4529,305.0291 Q626.7456,305.1553 626.9658,305.2627 L626.9658,307.2017 L626.7295,307.2017 Q626.5791,307.0728 626.3508,306.8955 Q626.1226,306.7183 625.8325,306.5464 Q625.5371,306.3745 625.1934,306.2563 Q624.8496,306.1382 624.4575,306.1382 Q624.0225,306.1382 623.6304,306.2751 Q623.2383,306.4121 622.9053,306.729 Q622.5884,307.0352 622.3923,307.54 Q622.1963,308.0449 622.1963,308.7646 Q622.1963,309.5166 622.4084,310.0215 Q622.6206,310.5264 622.9429,310.8164 Q623.2705,311.1118 623.6733,311.238 Q624.0762,311.3643 624.4683,311.3643 Q624.8442,311.3643 625.2122,311.2515 Q625.5801,311.1387 625.8916,310.9453 Q626.1548,310.7896 626.3804,310.6123 Q626.606,310.4351 626.751,310.3062 L626.9658,310.3062 L626.9658,312.2183 Q626.665,312.3525 626.3911,312.4707 Q626.1172,312.5889 625.8164,312.6748 Q625.4243,312.7876 625.0806,312.8467 Q624.7368,312.9058 624.1353,312.9058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="93" x="635" y="312.8748">TodoComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="613" x2="730" y1="321.5" y2="321.5"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="613" x2="730" y1="329.5" y2="329.5"/><!--MD5=[4c7ef9db262b3cdbea95a93c67ad5307]
+class NoteComponent--><rect codeLine="17" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="42" id="NoteComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="117" x="7" y="295.5"/><ellipse cx="19" cy="308.5" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M19.1353,312.9058 Q18.2437,312.9058 17.489,312.6426 Q16.7344,312.3794 16.1919,311.8584 Q15.6494,311.3374 15.3513,310.5586 Q15.0532,309.7798 15.0532,308.7593 Q15.0532,307.8086 15.3379,307.0352 Q15.6226,306.2617 16.165,305.7085 Q16.686,305.1768 17.4568,304.8867 Q18.2275,304.5967 19.1406,304.5967 Q19.6455,304.5967 20.051,304.6531 Q20.4565,304.7095 20.8003,304.8008 Q21.1602,304.9028 21.4529,305.0291 Q21.7456,305.1553 21.9658,305.2627 L21.9658,307.2017 L21.7295,307.2017 Q21.5791,307.0728 21.3508,306.8955 Q21.1226,306.7183 20.8325,306.5464 Q20.5371,306.3745 20.1934,306.2563 Q19.8496,306.1382 19.4575,306.1382 Q19.0225,306.1382 18.6304,306.2751 Q18.2383,306.4121 17.9053,306.729 Q17.5884,307.0352 17.3923,307.54 Q17.1963,308.0449 17.1963,308.7646 Q17.1963,309.5166 17.4084,310.0215 Q17.6206,310.5264 17.9429,310.8164 Q18.2705,311.1118 18.6733,311.238 Q19.0762,311.3643 19.4683,311.3643 Q19.8442,311.3643 20.2122,311.2515 Q20.5801,311.1387 20.8916,310.9453 Q21.1548,310.7896 21.3804,310.6123 Q21.606,310.4351 21.751,310.3062 L21.9658,310.3062 L21.9658,312.2183 Q21.665,312.3525 21.3911,312.4707 Q21.1172,312.5889 20.8164,312.6748 Q20.4243,312.7876 20.0806,312.8467 Q19.7368,312.9058 19.1353,312.9058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="91" x="30" y="312.8748">NoteComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="8" x2="123" y1="321.5" y2="321.5"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="8" x2="123" y1="329.5" y2="329.5"/><!--MD5=[2ef76b0ddb2775e9b53b31b61ce34193]
+class ImageComponent--><rect codeLine="18" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="42" id="ImageComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="128" x="159.5" y="295.5"/><ellipse cx="171.5" cy="308.5" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M171.6353,312.9058 Q170.7437,312.9058 169.989,312.6426 Q169.2344,312.3794 168.6919,311.8584 Q168.1494,311.3374 167.8513,310.5586 Q167.5532,309.7798 167.5532,308.7593 Q167.5532,307.8086 167.8379,307.0352 Q168.1226,306.2617 168.665,305.7085 Q169.186,305.1768 169.9568,304.8867 Q170.7275,304.5967 171.6406,304.5967 Q172.1455,304.5967 172.551,304.6531 Q172.9565,304.7095 173.3003,304.8008 Q173.6602,304.9028 173.9529,305.0291 Q174.2456,305.1553 174.4658,305.2627 L174.4658,307.2017 L174.2295,307.2017 Q174.0791,307.0728 173.8508,306.8955 Q173.6226,306.7183 173.3325,306.5464 Q173.0371,306.3745 172.6934,306.2563 Q172.3496,306.1382 171.9575,306.1382 Q171.5225,306.1382 171.1304,306.2751 Q170.7383,306.4121 170.4053,306.729 Q170.0884,307.0352 169.8923,307.54 Q169.6963,308.0449 169.6963,308.7646 Q169.6963,309.5166 169.9084,310.0215 Q170.1206,310.5264 170.4429,310.8164 Q170.7705,311.1118 171.1733,311.238 Q171.5762,311.3643 171.9683,311.3643 Q172.3442,311.3643 172.7122,311.2515 Q173.0801,311.1387 173.3916,310.9453 Q173.6548,310.7896 173.8804,310.6123 Q174.106,310.4351 174.251,310.3062 L174.4658,310.3062 L174.4658,312.2183 Q174.165,312.3525 173.8911,312.4707 Q173.6172,312.5889 173.3164,312.6748 Q172.9243,312.7876 172.5806,312.8467 Q172.2368,312.9058 171.6353,312.9058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="102" x="182.5" y="312.8748">ImageComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="160.5" x2="286.5" y1="321.5" y2="321.5"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="160.5" x2="286.5" y1="329.5" y2="329.5"/><!--MD5=[a1241d7a590723342f0d1bbfba4d9beb]
+class Composable--><rect codeLine="19" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="54.9551" id="Composable" style="stroke:#1B1B1B;stroke-width:1.5;" width="203" x="982" y="13.5"/><ellipse cx="1045" cy="26.5" fill="#B4A7E5" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M1047.3442,31 L1042.6606,31 L1042.6606,29.582 L1043.9712,29.582 L1043.9712,24.4204 L1042.6606,24.4204 L1042.6606,23.0024 L1047.3442,23.0024 L1047.3442,24.4204 L1046.0337,24.4204 L1046.0337,29.582 L1047.3442,29.582 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="70" x="1061" y="30.8748">Composable</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="983" x2="1184" y1="39.5" y2="39.5"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="983" x2="1184" y1="47.5" y2="47.5"/><ellipse cx="993" cy="58.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="999" y="62.1348">addChild(child: Component): void</text><!--MD5=[d6457e46ee0770f05773825f7ff7571c]
+class SectionContainer--><rect codeLine="22" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="54.9551" id="SectionContainer" style="stroke:#1B1B1B;stroke-width:1.5;" width="300" x="799.5" y="148"/><ellipse cx="897.5" cy="161" fill="#B4A7E5" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M899.8442,165.5 L895.1606,165.5 L895.1606,164.082 L896.4712,164.082 L896.4712,158.9204 L895.1606,158.9204 L895.1606,157.5024 L899.8442,157.5024 L899.8442,158.9204 L898.5337,158.9204 L898.5337,164.082 L899.8442,164.082 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="97" x="913.5" y="165.3748">SectionContainer</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="800.5" x2="1098.5" y1="174" y2="174"/><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="800.5" x2="1098.5" y1="182" y2="182"/><ellipse cx="810.5" cy="193" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="277" x="816.5" y="196.6348">setOnCloseListener(listener: OnCloseListener): void</text><!--MD5=[47c0a5a25632895b75fd694587da7eaa]
+class PageItemComponent--><rect codeLine="25" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="80.8652" id="PageItemComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="300" x="766.5" y="276"/><ellipse cx="853" cy="289" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M853.1353,293.4058 Q852.2437,293.4058 851.489,293.1426 Q850.7344,292.8794 850.1919,292.3584 Q849.6494,291.8374 849.3513,291.0586 Q849.0532,290.2798 849.0532,289.2593 Q849.0532,288.3086 849.3379,287.5352 Q849.6226,286.7617 850.165,286.2085 Q850.686,285.6768 851.4568,285.3867 Q852.2275,285.0967 853.1406,285.0967 Q853.6455,285.0967 854.051,285.1531 Q854.4565,285.2095 854.8003,285.3008 Q855.1602,285.4028 855.4529,285.5291 Q855.7456,285.6553 855.9658,285.7627 L855.9658,287.7017 L855.7295,287.7017 Q855.5791,287.5728 855.3508,287.3955 Q855.1226,287.2183 854.8325,287.0464 Q854.5371,286.8745 854.1934,286.7563 Q853.8496,286.6382 853.4575,286.6382 Q853.0225,286.6382 852.6304,286.7751 Q852.2383,286.9121 851.9053,287.229 Q851.5884,287.5352 851.3923,288.04 Q851.1963,288.5449 851.1963,289.2646 Q851.1963,290.0166 851.4084,290.5215 Q851.6206,291.0264 851.9429,291.3164 Q852.2705,291.6118 852.6733,291.738 Q853.0762,291.8643 853.4683,291.8643 Q853.8442,291.8643 854.2122,291.7515 Q854.5801,291.6387 854.8916,291.4453 Q855.1548,291.2896 855.3804,291.1123 Q855.606,290.9351 855.751,290.8062 L855.9658,290.8062 L855.9658,292.7183 Q855.665,292.8525 855.3911,292.9707 Q855.1172,293.0889 854.8164,293.1748 Q854.4243,293.2876 854.0806,293.3467 Q853.7368,293.4058 853.1353,293.4058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="120" x="869" y="293.3748">PageItemComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="767.5" x2="1065.5" y1="302" y2="302"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="774.5" y="310"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="235" x="783.5" y="316.6348">closeListener?: OnCloseListener | undefined</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="767.5" x2="1065.5" y1="322.9551" y2="322.9551"/><ellipse cx="777.5" cy="333.9551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="783.5" y="337.5898">addChild(child: Component): void</text><ellipse cx="777.5" cy="346.9102" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="277" x="783.5" y="350.5449">setOnCloseListener(listener: OnCloseListener): void</text><!--MD5=[002e8e2bfd01649225626de164f62fd3]
+class PageComponent--><rect codeLine="30" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="67.9102" id="PageComponent" style="stroke:#1B1B1B;stroke-width:1.5;" width="302" x="1101.5" y="282.5"/><ellipse cx="1202.5" cy="295.5" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M1202.6353,299.9058 Q1201.7437,299.9058 1200.989,299.6426 Q1200.2344,299.3794 1199.6919,298.8584 Q1199.1494,298.3374 1198.8513,297.5586 Q1198.5532,296.7798 1198.5532,295.7593 Q1198.5532,294.8086 1198.8379,294.0352 Q1199.1226,293.2617 1199.665,292.7085 Q1200.186,292.1768 1200.9568,291.8867 Q1201.7275,291.5967 1202.6406,291.5967 Q1203.1455,291.5967 1203.551,291.6531 Q1203.9565,291.7095 1204.3003,291.8008 Q1204.6602,291.9028 1204.9529,292.0291 Q1205.2456,292.1553 1205.4658,292.2627 L1205.4658,294.2017 L1205.2295,294.2017 Q1205.0791,294.0728 1204.8508,293.8955 Q1204.6226,293.7183 1204.3325,293.5464 Q1204.0371,293.3745 1203.6934,293.2563 Q1203.3496,293.1382 1202.9575,293.1382 Q1202.5225,293.1382 1202.1304,293.2751 Q1201.7383,293.4121 1201.4053,293.729 Q1201.0884,294.0352 1200.8923,294.54 Q1200.6963,295.0449 1200.6963,295.7646 Q1200.6963,296.5166 1200.9084,297.0215 Q1201.1206,297.5264 1201.4429,297.8164 Q1201.7705,298.1118 1202.1733,298.238 Q1202.5762,298.3643 1202.9683,298.3643 Q1203.3442,298.3643 1203.7122,298.2515 Q1204.0801,298.1387 1204.3916,297.9453 Q1204.6548,297.7896 1204.8804,297.6123 Q1205.106,297.4351 1205.251,297.3062 L1205.4658,297.3062 L1205.4658,299.2183 Q1205.165,299.3525 1204.8911,299.4707 Q1204.6172,299.5889 1204.3164,299.6748 Q1203.9243,299.7876 1203.5806,299.8467 Q1203.2368,299.9058 1202.6353,299.9058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="93" x="1218.5" y="299.8748">PageComponent</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1102.5" x2="1402.5" y1="308.5" y2="308.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1109.5" y="316.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="279" x="1118.5" y="323.1348">pageItemConstructor: SectionContainerConstructor</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1102.5" x2="1402.5" y1="329.4551" y2="329.4551"/><ellipse cx="1112.5" cy="340.4551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="193" x="1118.5" y="344.0898">addChild(section: Component): void</text><!--MD5=[335f4d9be48430461c68bf6d6fdba145]
+class App--><rect codeLine="34" fill="#2E2E2E" filter="url(#f1d1gcilhosf5e)" height="54.9551" id="App" style="stroke:#1B1B1B;stroke-width:1.5;" width="199" x="1220" y="13.5"/><ellipse cx="1305" cy="26.5" fill="#BB6600" rx="8" ry="8" style="stroke:#1B1B1B;stroke-width:1.0;"/><path d="M1305.1353,30.9058 Q1304.2437,30.9058 1303.489,30.6426 Q1302.7344,30.3794 1302.1919,29.8584 Q1301.6494,29.3374 1301.3513,28.5586 Q1301.0532,27.7798 1301.0532,26.7593 Q1301.0532,25.8086 1301.3379,25.0352 Q1301.6226,24.2617 1302.165,23.7085 Q1302.686,23.1768 1303.4568,22.8867 Q1304.2275,22.5967 1305.1406,22.5967 Q1305.6455,22.5967 1306.051,22.6531 Q1306.4565,22.7095 1306.8003,22.8008 Q1307.1602,22.9028 1307.4529,23.0291 Q1307.7456,23.1553 1307.9658,23.2627 L1307.9658,25.2017 L1307.7295,25.2017 Q1307.5791,25.0728 1307.3508,24.8955 Q1307.1226,24.7183 1306.8325,24.5464 Q1306.5371,24.3745 1306.1934,24.2563 Q1305.8496,24.1382 1305.4575,24.1382 Q1305.0225,24.1382 1304.6304,24.2751 Q1304.2383,24.4121 1303.9053,24.729 Q1303.5884,25.0352 1303.3923,25.54 Q1303.1963,26.0449 1303.1963,26.7646 Q1303.1963,27.5166 1303.4084,28.0215 Q1303.6206,28.5264 1303.9429,28.8164 Q1304.2705,29.1118 1304.6733,29.238 Q1305.0762,29.3643 1305.4683,29.3643 Q1305.8442,29.3643 1306.2122,29.2515 Q1306.5801,29.1387 1306.8916,28.9453 Q1307.1548,28.7896 1307.3804,28.6123 Q1307.606,28.4351 1307.751,28.3062 L1307.9658,28.3062 L1307.9658,30.2183 Q1307.665,30.3525 1307.3911,30.4707 Q1307.1172,30.5889 1306.8164,30.6748 Q1306.4243,30.7876 1306.0806,30.8467 Q1305.7368,30.9058 1305.1353,30.9058 Z " fill="#000000"/><text fill="#FFFFFF" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="22" x="1321" y="30.8748">App</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1221" x2="1418" y1="39.5" y2="39.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1228" y="47.5"/><text fill="#AAAAAA" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="176" x="1237" y="54.1348">page: Component &amp; Composable</text><line style="stroke:#1B1B1B;stroke-width:1.5;" x1="1221" x2="1418" y1="60.4551" y2="60.4551"/><!--MD5=[5138e1726e9722808680e9cc81e45b35]
+reverse link Component to BaseComponent--><path d="M679.06,88.73 C662.75,103.85 644.83,120.46 629.13,135 " fill="none" id="Component-backto-BaseComponent" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="674.36,83.55,693.78,75.09,683.87,93.82,674.36,83.55" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[46d660da38c5c95ffda6b06b7e7d3ba2]
+reverse link BaseComponent to VideoComponent--><path d="M533,230.78 C513.35,250.72 491.97,272.41 475.76,288.86 " fill="none" id="BaseComponent-backto-VideoComponent" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="528.22,225.66,547.24,216.33,538.19,235.49,528.22,225.66" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[b5ec4a4f46e91018b579491d2f3e7f4e]
+reverse link BaseComponent to TodoComponent--><path d="M621.3,233.4 C634.73,255.37 649.23,279.07 659.17,295.34 " fill="none" id="BaseComponent-backto-TodoComponent" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="615.32,237.05,610.86,216.33,627.26,229.74,615.32,237.05" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[e265c7727f9531c564615a99e1f247a0]
+reverse link BaseComponent to NoteComponent--><path d="M389.2,209.18 C310.79,225.1 220.61,247.16 141.5,276 C127.25,281.2 112.29,288.52 99.45,295.46 " fill="none" id="BaseComponent-backto-NoteComponent" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="387.88,202.3,408.87,205.26,390.62,216.03,387.88,202.3" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[29b9bf4036036b28cde1f0225d581220]
+reverse link BaseComponent to ImageComponent--><path d="M445.44,222.72 C400.03,238.54 349.76,257.05 304.5,276 C290.5,281.86 275.48,288.95 262.22,295.5 " fill="none" id="BaseComponent-backto-ImageComponent" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="443.39,216.02,464.58,216.11,447.96,229.25,443.39,216.02" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[c39c3490e5aa4b0d319f3c28b36aac2e]
+reverse link Component to SectionContainer--><path d="M801.72,85.5 C835.88,106.07 875.57,129.97 905.21,147.82 " fill="none" id="Component-backto-SectionContainer" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="797.97,91.41,784.45,75.09,805.19,79.42,797.97,91.41" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[3a9df5a00790f8351a269bf9e437b4fd]
+reverse link Composable to SectionContainer--><path d="M1042.07,82.97 C1020.75,104.05 995.37,129.15 976.58,147.73 " fill="none" id="Composable-backto-SectionContainer" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="1037.24,77.9,1056.38,68.81,1047.08,87.85,1037.24,77.9" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[38c3067405c9cda2a66805e4f66163d5]
+reverse link BaseComponent to PageItemComponent--><path d="M699.3,224.01 C739.43,240.92 784.15,259.75 822.54,275.92 " fill="none" id="BaseComponent-backto-PageItemComponent" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="696.34,230.36,680.62,216.15,701.77,217.46,696.34,230.36" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[b697d3d8c1575e7031f06f637f97308a]
+reverse link SectionContainer to PageItemComponent--><path d="M938.49,222.87 C934.41,240.05 929.83,259.36 925.9,275.89 " fill="none" id="SectionContainer-backto-PageItemComponent" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="931.71,221.14,943.14,203.3,945.33,224.38,931.71,221.14" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[d12126b444a36097ccaa28cd1894f2d3]
+reverse link BaseComponent to PageComponent--><path d="M784.01,216.48 C919.38,243.37 956.35,248.26 1084.5,276 C1094.02,278.06 1103.83,280.23 1113.7,282.46 " fill="none" id="BaseComponent-backto-PageComponent" style="stroke:#FFFFFF;stroke-width:1.0;"/><polygon fill="none" points="782.48,223.31,764.24,212.54,785.22,209.59,782.48,223.31" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[3f57782c9d012a90413e5f7a0620cd54]
+reverse link Composable to PageComponent--><path d="M1110.74,86.08 C1144.6,140.88 1201.63,233.17 1232.01,282.34 " fill="none" id="Composable-backto-PageComponent" style="stroke:#FFFFFF;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1104.57,89.42,1100.01,68.72,1116.48,82.06,1104.57,89.42" style="stroke:#FFFFFF;stroke-width:1.0;"/><!--MD5=[6d148fd4027e0fe72d3a16acf92395ef]
+@startuml
+!define DARKORANGE
+!include https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+interface Component {
+    +attachTo(parent: HTMLElement, position?: InsertPosition | undefined): void
+    +removeFrom(parent: HTMLElement): void
+}
+class BaseComponent<T extends HTMLElement> implements Component {
+    #element: T
+    +attachTo(parent: HTMLElement, position?: InsertPosition): void
+    +removeFrom(parent: HTMLElement): void
+}
+class VideoComponent extends BaseComponent {
+    -convertToEmbeddedURL(url: string): string
+}
+class TodoComponent extends BaseComponent
+class NoteComponent extends BaseComponent
+class ImageComponent extends BaseComponent
+interface Composable {
+    +addChild(child: Component): void
+}
+interface SectionContainer extends Component, Composable {
+    +setOnCloseListener(listener: OnCloseListener): void
+}
+class PageItemComponent extends BaseComponent implements SectionContainer {
+    -closeListener?: OnCloseListener | undefined
+    +addChild(child: Component): void
+    +setOnCloseListener(listener: OnCloseListener): void
+}
+class PageComponent extends BaseComponent implements Composable {
+    -pageItemConstructor: SectionContainerConstructor
+    +addChild(section: Component): void
+}
+class App {
+    -page: Component & Composable
+}
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam stereotypeCBackgroundColor BB6600
+
+
+
+skinparam backgroundColor 777
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  attributeFontColor aaa
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor 575757
+  borderColor 767676
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+
+  lifeLineBorderColor BB6600
+  lifeLineBackgroundColor 575757
+}
+
+skinparam boundary {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+  startColor BB6600
+  endColor 662200
+}
+
+
+skinparam object {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor BB6600
+  borderColor 662200
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+    arrowColor fff
+  arrowFontName Verdana
+  arrowFontColor bbb
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor 2e2e2e
+  borderColor 1b1b1b
+    fontColor fff
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor aaa
+  stereotypeFontSize 11
+}
+
+
+interface Component {
+    +attachTo(parent: HTMLElement, position?: InsertPosition | undefined): void
+    +removeFrom(parent: HTMLElement): void
+}
+class BaseComponent<T extends HTMLElement> implements Component {
+    #element: T
+    +attachTo(parent: HTMLElement, position?: InsertPosition): void
+    +removeFrom(parent: HTMLElement): void
+}
+class VideoComponent extends BaseComponent {
+    -convertToEmbeddedURL(url: string): string
+}
+class TodoComponent extends BaseComponent
+class NoteComponent extends BaseComponent
+class ImageComponent extends BaseComponent
+interface Composable {
+    +addChild(child: Component): void
+}
+interface SectionContainer extends Component, Composable {
+    +setOnCloseListener(listener: OnCloseListener): void
+}
+class PageItemComponent extends BaseComponent implements SectionContainer {
+    -closeListener?: OnCloseListener | undefined
+    +addChild(child: Component): void
+    +setOnCloseListener(listener: OnCloseListener): void
+}
+class PageComponent extends BaseComponent implements Composable {
+    -pageItemConstructor: SectionContainerConstructor
+    +addChild(section: Component): void
+}
+class App {
+    -page: Component & Composable
+}
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 19:25:05 KST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: AU
+--></g></svg>
