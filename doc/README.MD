@@ -114,3 +114,9 @@ InputDialog가 자체적으로 닫힘 버튼이 눌러지면 무엇을 할지 �
 닫힘, 제출 버튼이 눌러졌을때 어떤 일을 해야 할지도 외부에서 setOnCloseListener, setOnSubmitListener로 받아 오기 때문에,
 
 어디서 쓰이냐에 따라 유연하게, 재사용성이 높은 클래스라고 볼 수 있어요 :)
+
+
+### 미디어 url 예제
+- https://youtu.be/K3-jG52XwuQ
+- https://picsum.photos/600/300
+- 
