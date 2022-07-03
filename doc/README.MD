@@ -2,6 +2,7 @@
 - 디자인 영감 [드리블](https://dribbble.com/shots/14931899-TIGERS)
 - 백그라운드 이미지 만드는 [사이트](https://coolbackgrounds.io/)
 - 랜덤 이미지 [생성기](https://picsum.photos/)
+- 정규표현식 [Regex](https://regexr.com/)
 - 색상코드
 ```css
 :root {
@@ -57,6 +58,14 @@
 
 - B ⇢ A : B는 A를 구현 (implements)
 - B → A : B는 A를 상속 (extends)
+
+[모든 컴포넌트 작성 후]
+
+![](4_diagram42edd92addmorechildren-210225-143855.svg)
+
+[PageCopmponent와 Composable 인터페이스 추가]
+
+![](5_diagram9869cd0introducepage_item_component-210225-143908.svg)
 
 ## HTML DOM elements
 
