@@ -79,6 +79,9 @@
 ### 최종 클래스 다이어그램
 ![](8_diagramad45105addinputcomponents-210225-145827.svg)
 
+### Decorator를 적용한 최종판
+![](10_diagram1a583dbdecorators-210225-152820.svg)
+
 ## HTML DOM elements
 
 최상위 노드는 EventTarget 이다. 브라우저에서 html을 이해하는 방식은 이렇게 모든 객체를 노드 타입으로 기억하는데 자바스크립트를 사용해서 그 일을 한다. 화살표는 상속 구조다. HTMLElement는 Element > Node > EventTarget 을 부모로 두고 있다.
