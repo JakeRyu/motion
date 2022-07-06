@@ -13,6 +13,7 @@ interface SectionContainer extends Component, Composable {
     setOnDragStateListener(listener: OnDragStateListener<SectionContainer>): void;
     muteChildren(state: 'mute' | 'unmute'): void;
     getBoundingRect(): DOMRect;
+    onDropped(): void;
 }
 
 type SectionContainerConstructor = {
@@ -55,17 +56,27 @@ export class PageItemComponent
 
     onDragStart(_: DragEvent) {
         this.notifyDragObservers('start');
+        this.element.classList.add('lifted');
+
     }
     onDragEnd(_: DragEvent) {
         this.notifyDragObservers('stop');
+        this.element.classList.remove('lifted');
+
     }
     onDragEnter(_: DragEvent) {
         this.notifyDragObservers('enter');
+        this.element.classList.add('drop-area');
+
     }
     onDragLeave(_: DragEvent) {
         this.notifyDragObservers('leave');
-    }
+        this.element.classList.remove('drop-area');
 
+    }
+    onDropped() {
+        this.element.classList.remove('drop-area');
+    }
     notifyDragObservers(state: DragState) {
         this.dragStateListener && this.dragStateListener(this, state);
     }
@@ -117,9 +128,9 @@ export class PageComponent
         console.log('onDragOver');
     }
     onDrop(event: DragEvent) {
+        console.log('onDrop', this.dropTarget);
         event.preventDefault();
-        console.log('onDrop');
-        // 여기에서 위치를 바꿔주면 됩니다.
+        
         if (!this.dropTarget) {
             return;
         }
@@ -130,6 +141,7 @@ export class PageComponent
             this.dragTarget.removeFrom(this.element);
             this.dropTarget.attach(this.dragTarget, dropY < srcElement.y ? 'beforebegin' : 'afterend');
         }
+        this.dropTarget.onDropped();
     }
 
     addChild(section: Component) {
@@ -148,7 +160,7 @@ export class PageComponent
                     this.updateSections('mute');
                     break;
                 case 'stop':
-                this.dragTarget = undefined;
+                    this.dragTarget = undefined;
                     this.updateSections('unmute');
                     break;
                 case 'enter':
